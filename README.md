@@ -1,2 +1,8 @@
 # video-chat
-hello 
+
+python manage.py runserver
+
+
+python manage.py makemigrations
+
+
