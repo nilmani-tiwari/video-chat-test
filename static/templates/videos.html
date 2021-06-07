@@ -1,0 +1,25 @@
+
+<h1><center>The videos from database </center></h1>
+
+<h2><li><a href="/upload"><i class=""></i>Upload new videos</a></li></h2>
+<div>
+ 
+    {% for video in videos %}
+    <video width="500" height="500" controls >
+    <source src="{{video.video.url}}" type="video/mp4">
+    <b>{{video.title}}</b>
+    </video>
+
+    {% endfor %}
+ 
+    <h1><center>The videos from youtube </center></h1>
+
+
+        <iframe width="500" height="500" src="//www.youtube.com/embed/Ncv-DT83txs" frameborder="0" allowfullscreen></iframe>
+
+        <iframe width="500" height="500" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
+
+        <iframe width="500" height="500" src="//www.youtube.com/embed/TC25jacSPrQ" frameborder="0" allowfullscreen></iframe>
+
+
+    </div>

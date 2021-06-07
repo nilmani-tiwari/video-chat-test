@@ -1,0 +1,10 @@
+<form action="" enctype="multipart/form-data" method="POST">{% csrf_token %}
+   <h2> <li><a href="/videos"><i class=""></i>Go to videos list</a></li></h2>
+   
+    <input type="text" name="title" placeholder="Enter Video Title here"><br>
+    <!-- <input type="file" name="video" accept="video/*"> -->
+    <input type="file" name="video" >
+
+    <button type="submit"> Upload New Video </button>
+ 
+</form>
